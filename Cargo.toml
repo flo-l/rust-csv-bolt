@@ -2,6 +2,7 @@
 name = "csv-bolt"
 version = "0.1.0"
 authors = ["Florian Lackner <lacknerflo@gmail.com>"]
+license = "MIT"
 
 [dependencies]
 
