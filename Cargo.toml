@@ -5,6 +5,7 @@ authors = ["Florian Lackner <lacknerflo@gmail.com>"]
 license = "MIT"
 
 [dependencies]
+memchr = "2"
 
 [dev-dependencies]
 criterion = "0.2"
