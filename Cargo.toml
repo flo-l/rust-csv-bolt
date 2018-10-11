@@ -1,6 +1,15 @@
 [package]
 name = "csv-bolt"
 version = "0.1.0"
-authors = ["Florian Lackner <florian.lackner@gmail.com>"]
+authors = ["Florian Lackner <lacknerflo@gmail.com>"]
 
 [dependencies]
+
+[dev-dependencies]
+criterion = "0.2"
+csv = "1"
+itertools = "0.7"
+
+[[bench]]
+name = "rust_csv"
+harness = false
